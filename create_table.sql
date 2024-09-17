@@ -11,4 +11,11 @@ create table Authors(
   name varchar(20),
   country varchar(20),
   data 
-  )
+  );
+ 
+ create table Readers(
+  id bigint primary_key,
+  name varchar(20),
+  data int,
+  phone_number int
+  );
