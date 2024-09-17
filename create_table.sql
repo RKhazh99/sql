@@ -4,9 +4,9 @@ create table Books(
   author varchar(20),
   data int,
   counts int
-  )
+  );
   
-  create table Authors(
+create table Authors(
   id bigint primary_key,
   name varchar(20),
   country varchar(20),
